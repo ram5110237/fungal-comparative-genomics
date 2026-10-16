@@ -1,0 +1,9 @@
+# Example target-site panel. Positions refer to the SIMULATED genes in data/example.
+# For real work replace with literature-validated positions and the gene models and
+# codon numbering used for your species (numbering often differs between species).
+gene	mutation	fungicide_group	note
+CYTB	G143A	QoI (FRAC 11)	example entry
+CYTB	F129L	QoI (FRAC 11)	example entry
+SDHB	H272R/Y	SDHI (FRAC 7)	example entry
+CYP51	Y137F	DMI (FRAC 3)	example entry
+CYP51	S524T	DMI (FRAC 3)	example entry

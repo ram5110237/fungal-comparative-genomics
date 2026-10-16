@@ -1,0 +1,13 @@
+##gff-version 3
+contig_1	sim	gene	20001	21200	.	+	.	ID=gene_cytb;Name=CYTB
+contig_1	sim	mRNA	20001	21200	.	+	.	ID=mrna_cytb;Parent=gene_cytb
+contig_1	sim	CDS	20001	21200	.	+	0	ID=cds_cytb;Parent=mrna_cytb
+contig_1	sim	gene	40001	40980	.	+	.	ID=gene_sdhb;Name=SDHB
+contig_1	sim	mRNA	40001	40980	.	+	.	ID=mrna_sdhb;Parent=gene_sdhb
+contig_1	sim	CDS	40001	40450	.	+	0	ID=cds_sdhb;Parent=mrna_sdhb
+contig_1	sim	CDS	40531	40980	.	+	0	ID=cds_sdhb;Parent=mrna_sdhb
+contig_2	sim	gene	15001	16650	.	-	.	ID=gene_cyp51;Name=CYP51
+contig_2	sim	mRNA	15001	16650	.	-	.	ID=mrna_cyp51;Parent=gene_cyp51
+contig_2	sim	CDS	15001	16650	.	-	0	ID=cds_cyp51;Parent=mrna_cyp51
+contig_2	sim	gene	30001	31998	.	+	.	ID=gene_abc1;Name=ABC1
+contig_2	sim	CDS	30001	31998	.	+	0	ID=cds_abc1;Parent=gene_abc1

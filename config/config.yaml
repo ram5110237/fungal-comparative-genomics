@@ -1,0 +1,19 @@
+# Paths are relative to this file.
+vcf:       ../data/example/isolates.vcf      # plain or .vcf.gz
+reference: ../data/example/reference.fasta   # optional, needed for annotation and windows
+gff:       ../data/example/genes.gff3        # optional, gene -> mRNA -> CDS
+groups:    ../data/example/groups.tsv        # sample<TAB>group
+panel:     ../config/known_mutations.tsv     # optional target-site mutation panel
+outdir:    ../results/example
+
+filters:
+  min_qual: 30
+  min_dp: 5            # genotypes below this depth are set to missing
+  max_missing: 0.2
+  min_maf: 0.0         # keep rare variants: resistance alleles are often rare
+  biallelic_only: true
+  pass_only: true
+
+window_size: 5000
+promoter_bp: 1000
+plots: true
