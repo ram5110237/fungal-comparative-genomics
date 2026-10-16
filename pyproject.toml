@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cgpipe"
+version = "0.1.0"
+description = "Comparative genomics, SNP and structural-variant analysis for fungal and microbial isolates"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.9"
+dependencies = ["numpy>=1.22", "pandas>=1.4", "scipy>=1.8", "pyyaml>=6"]
+
+[project.optional-dependencies]
+test = ["pytest>=7"]
+
+[project.scripts]
+cgpipe = "cgpipe.cli:main"
+
+[tool.setuptools]
+packages = ["cgpipe"]
